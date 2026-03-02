@@ -176,6 +176,7 @@ section {
   transition: all 0.6s ease;
   margin-bottom: 40px;
 }
+
 .hero-icons i:hover {
   transform: rotate3d(0, 0, 1, 360deg);
   color: var(--main-color);
@@ -215,4 +216,191 @@ section {
 
 .btn2:hover {
   border-bottom: 2px solid var(--text-color);
+}
+
+.scroll {
+  position: absolute;
+  top: 90%;
+  left: 47%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.scroll a {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-color);
+  letter-spacing: 0.05em;
+  transition: all 0.6s ease;
+}
+
+.scroll i {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.scroll a:hover {
+  transform: translateY(-5px);
+  color: var(--main-color);
+}
+
+header.sticky {
+  padding: 8px 13%;
+  background: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.mid-text {
+  text-align: center;
+}
+
+.mid-text h2 {
+  font-size: var(--h2-font);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.mid-text h5 {
+  font-family: "Caveat", cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.services {
+  background: var(--second-color);
+}
+
+.services-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+.box {
+  background: var(--bg-color);
+  padding: 30px 35px;
+  border-radius: 18px;
+  border: 1px solid #303030;
+  transition: all 0.6s ease;
+}
+
+.box h6 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+}
+
+.box h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.box p {
+  font-size: var(--p-font);
+  color: var(--other-color);
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.linkk a {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.linkk i {
+  margin: left 3px;
+  font-size: 17px;
+  color: var(--main-color);
+}
+
+.linkk a:hover {
+  text-decoration: underline;
+}
+
+.box:hover {
+  transform: translateY(-9px) scale(1.04);
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.portfolio-img {
+  overflow: hidden;
+  border-radius: 18px;
+  margin-bottom: 25px;
+}
+
+.portfolio-img img {
+  display: block;
+  width: 100%;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.portfolio-img img:hover {
+  transform: scale(1.07);
+}
+
+.p-flex {
+  margin-bottom: 15px;
+}
+
+.p-flex a {
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #303033;
+  font-size: 14px;
+  color: var(--text-color);
+  transition: all 0.6s ease;
+}
+
+.p-flex a:hover {
+  background: var(--text-color);
+  color: var(--bg-color);
+}
+
+.row h3 {
+  font-size: 26px;
+  font-weight: 700;
+  transition: all 0.6s ease;
+}
+.row h3:hover {
+  color: var(--main-color);
+}
+.portfolio-btn {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.p-btn {
+  width: 100%;
+  display: inline-block;
+  padding: 15px 35px;
+  background: var(--second-bg-color);
+  border-radius: 18px;
+  border: 1px solid #303033;
+  font-size: var(--p-font);
+  font-weight: 600;
+  color: var(--text-color);
+  transition: all 0.6s ease;
+}
+
+.p-btn:hover {
+  background: transparent;
+  color: var(--main-color);
 }
