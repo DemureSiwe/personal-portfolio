@@ -5,14 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Busisiwe Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css.boxicons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,7 +26,7 @@
       </ul>
 
       <div class="nav-right">
-        <a href="#" class="nav-btn"> Hire me!</a>
+        <a href="#contact" class="nav-btn"> Hire me!</a>
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </header>
@@ -63,7 +55,7 @@
         <img src="src/profile pic lg.png" alt="profile picture" />
       </div>
 
-      <div class="scroll">
+      <div class="scroll-down">
         <a href="#services"
           ><i class="fa-solid fa-angles-down"></i>Scroll down</a
         >
@@ -210,7 +202,7 @@
         </div>
 
         <div class="mid-right">
-          <a href="#" class="mid-btn">Contact for custom projects</a>
+          <a href="#contact" class="mid-btn">Contact for custom projects</a>
         </div>
       </div>
 
@@ -305,18 +297,36 @@
       </div>
     </section>
 
-    <section class="Contact" id="Contact">
+    <section class="Contact" id="contact">
       <div class="contact-content">
         <h5>Contact</h5>
         <h3>Lets chat</h3>
-        <p>I'm happy to discuss your website needs, improve your online presence or ...</p>
-        <div class="social-icon">
-          <a href="#"><i class="fa-regular fa-at"></i></a>
-          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-      </div>
+        <p>I'm available for freelance work. Connect with me via email:letsetse.b@gmail.com or phone: +27 828912630 I'm happy to discuss your website needs, improve your online presence or ...</p>
+        <form <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+          <input type="hidden" name="access_key" value="d2f693a0-4e41-40b2-ac4e-4b982fc99701">
+          <input type="text" placeholder="Your Name" class="contact-inputs" required>
+          <input type="email" name="email"  placeholder="Your E-mail" class="contact-inputs" required>
+          <textarea name="message" id="" placeholder="Your Message" class="contact-inputs" required></textarea>
+          <input type="submit" name="" value="submit" class="btn"> </input>
+        </form>
 
+       <!-- Not sure if I still want social icons
+        <div class="social-icon">
+          <a href="#"><i class="fa-regular fa-at"></i></a> 
+          /<a href="#"><i class="fa-brands fa-whatsapp"></i></a>/
+        </div>
+        -->
+      </div>
     </section>
+    
+    <div class="footer">
+      <div class="copyright">
+        <p>Created by Busisiwe | All Rights Reserved ❣️ </p>
+      </div>
+      <a href="#home" class="scroll-up">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/0604c62f53.js"
