@@ -51,8 +51,8 @@ body {
   font-size: var(--p-font);
   font-weight: 500;
   color: var(--text-color);
-  margin: 0 30px;
-  transition: all 0.6s aese;
+  margin: 0 25px;
+  transition: all 0.6s ease;
 }
 
 .navlist a:hover {
@@ -88,7 +88,7 @@ body {
   font-size: 40px;
   cursor: pointer;
   z-index: 10001;
-  margin-left: 22px;
+  margin-left: 15px;
   display: none;
 }
 
@@ -103,26 +103,12 @@ section {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 3rem;
-}
-
-section {
-  padding: 90px 13% 80px;
-}
-.hero {
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 3rem;
 }
 
 .hero-img img {
-  max-width: 600px;
+  max-width: 300px;
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -333,7 +319,7 @@ header.sticky {
 
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   align-items: center;
   gap: 2rem;
   margin-top: 5rem;
@@ -412,7 +398,7 @@ header.sticky {
 
 .skills-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   align-items: center;
   gap: 2rem;
   margin-top: 5rem;
@@ -482,7 +468,7 @@ header.sticky {
 
 .pricing-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   align-items: center;
   gap: 2rem;
   margin-top: 5rem;
@@ -637,19 +623,19 @@ header.sticky {
   color: var(--text-color);
 }
 
-@media (max-width: 1775px) {
+@media (max-width: 1750px) {
   header {
-    padding: 20px 5%;
+    padding: 20px 7%;
   }
   section {
-    padding: 90px 5% 80px;
+    padding: 60px 7% 60px;
   }
   .footer {
-    padding: 10px 5%;
+    padding: 10px 7%;
   }
 
-  header .sticky {
-    padding: 13px 5%;
+  header.sticky {
+    padding: 10px 7%;
   }
 }
 
@@ -669,7 +655,7 @@ header.sticky {
 }
 
 .skills-content {
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 }
 
 @media (max-width: 1260px) {
@@ -685,7 +671,7 @@ header.sticky {
     padding: 10px 3%;
   }
 
-  header .sticky {
+  header.sticky {
     padding: 13px 3%;
   }
 
